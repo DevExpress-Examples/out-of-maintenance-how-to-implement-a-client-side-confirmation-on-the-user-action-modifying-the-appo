@@ -12,8 +12,6 @@ Partial Public Class _Default
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-        DataHelper.SetupDefaultMappings(ASPxScheduler1)
-        DataHelper.ProvideRowInsertion(ASPxScheduler1, objectDataSource.AppointmentDataSource)
-        objectDataSource.AttachTo(ASPxScheduler1)
+
     End Sub
 End Class

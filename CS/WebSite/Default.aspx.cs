@@ -10,8 +10,6 @@ using System.Web.UI.HtmlControls;
 
 public partial class _Default : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
-        DataHelper.SetupDefaultMappings(ASPxScheduler1);
-        DataHelper.ProvideRowInsertion(ASPxScheduler1, objectDataSource.AppointmentDataSource);
-        objectDataSource.AttachTo(ASPxScheduler1);
+
     }
 }
